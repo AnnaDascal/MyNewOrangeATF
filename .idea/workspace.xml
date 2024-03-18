@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="802673c4-df12-4b90-9727-bf7be0453e04" name="Changes" comment="My New Orange ATF - working version">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/apiobjects/CreatingUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/Api2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/dtos/request/UserBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/dtos/response/UserResponsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/actions/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/actions/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/actions/RequestPasswordResetCodePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/actions/SendPasswordResetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APITest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APITest2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/actions/HomePageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/actions/LoginPageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/actions/RequestPasswordResetCodePageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/actions/SendPasswordResetPageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/locators/HomePageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/locators/LoginPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/locators/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/locators/RequestPasswordResetCodePageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/pages/RequestPasswordResetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/locators/SendPasswordResetPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/uitestobjects/pages/SendPasswordReset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/utils/HelperClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/utils/Keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/utils/Keys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UItestObjects/utils/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/utils/ScenarioContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dtos/response/ObjClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/dtos/response/ObjClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/API2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/definitions/ForgotPasswordDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/definitions/HomePageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/definitions/LoginPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/definitions/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testing/runner/CucumberRunnerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testing/runner/CucumberRunnerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/log4j.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../OpenJDK11U-jdk_x64_windows_hotspot_11.0.21_9/jdk-11.0.21_9/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0-sources.jar!/io/cucumber/core/cli/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0-sources.jar!/io/cucumber/core/runtime/CucumberExecutionContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0-sources.jar!/io/cucumber/core/runtime/Runtime.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0-sources.jar!/io/cucumber/core/stepexpression/StepExpressionFactory.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dlog4j.configurationFile=C:\Tools\New project\MyNewOrangeATF\src\test\resources/log4j2.xml" />
+  </component>
+  <component name="ProjectId" id="2bzR7uZNpaW0kTIjiPm7Nkvrt5f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Tools/New project/MyNewOrangeATF&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Tools\New project\MyNewOrangeATF\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CucumberRunnerTests">
+    <configuration name="Feature: LoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
+      <option name="GLUE" value="org.testing.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyNewOrangeATF" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginPage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Attempt to create a user with a repeated email (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/API2.feature" />
+      <option name="GLUE" value="org.testing.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyNewOrangeATF" />
+      <option name="NAME_FILTER" value="^Attempt to create a user with a repeated email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Attempt to create a user with a repeated email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Attempt to create a user with a repeated email" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Attempt to create a user with a repeated email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APITest2.feature" />
+      <option name="GLUE" value="org.testing.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyNewOrangeATF" />
+      <option name="NAME_FILTER" value="^Attempt to create a user with a repeated email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Attempt to create a user with a repeated email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Attempt to create a user with a repeated email" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Create a user with credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APITest2.feature" />
+      <option name="GLUE" value="org.testing.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyNewOrangeATF" />
+      <option name="NAME_FILTER" value="^Create a user with credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a user with credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create a user with credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunnerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyNewOrangeATF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testing.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testing.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.testing.runner.CucumberRunnerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: LoginPage" />
+      <item itemvalue="Cucumber Java.Scenario: Attempt to create a user with a repeated email" />
+      <item itemvalue="Cucumber Java.Scenario: Attempt to create a user with a repeated email (1)" />
+      <item itemvalue="Cucumber Java.Scenario: Create a user with credentials" />
+      <item itemvalue="JUnit.CucumberRunnerTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberRunnerTests" />
+        <item itemvalue="Cucumber Java.Feature: LoginPage" />
+        <item itemvalue="Cucumber Java.Scenario: Attempt to create a user with a repeated email" />
+        <item itemvalue="Cucumber Java.Scenario: Attempt to create a user with a repeated email (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Create a user with credentials" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="802673c4-df12-4b90-9727-bf7be0453e04" name="Changes" comment="" />
+      <created>1707215760410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707215760410</updated>
+    </task>
+    <task id="LOCAL-00001" summary="My New Orange ATF - working version">
+      <created>1710763932338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710763932338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My New Orange ATF - working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="My New Orange ATF - working version" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyNewOrangeATF$Feature__LoginPage.ic" NAME="Feature: LoginPage Coverage Results" MODIFIED="1707737673693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
